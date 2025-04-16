@@ -1,5 +1,5 @@
-// src/app/redeem-confirmation/[size]/[quantity]/page.jsx
 export const runtime = 'edge'; // Added for Cloudflare Pages
+// src/app/redeem-confirmation/[size]/[quantity]/page.jsx
 
 'use client'; // MUST be the very first line for client components within
 
