@@ -1,4 +1,6 @@
 // src/app/redeem-confirmation/[size]/[quantity]/page.jsx
+export const runtime = 'edge'; // Added for Cloudflare Pages
+
 'use client'; // MUST be the very first line for client components within
 
 import React, { useState, useEffect, Suspense } from 'react';
