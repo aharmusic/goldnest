@@ -1,5 +1,5 @@
-// src/app/redeem-details/[id]/page.jsx
 export const runtime = 'edge'; // Added for Cloudflare Pages
+// src/app/redeem-details/[id]/page.jsx
 'use client';
 
 import React, { useState, useEffect } from 'react';
