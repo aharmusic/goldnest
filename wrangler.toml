@@ -1,0 +1,24 @@
+# wrangler.toml (Example for placing it in the project ROOT)
+
+name = "goldnest"
+compatibility_date = "2025-04-15" # <-- Use a recent date
+
+pages_build_output_dir = "frontend/.next" # <--- ADJUST for Next.js or your framework
+
+[build]
+command = "npm install && npm run build"
+working_directory = "frontend"
+watch_dir = "frontend/src" # Or frontend/app
+
+[dev]
+command = "npm start" # Usually 'npm run dev' for Next.js
+working_directory = "frontend"
+# port = 3000 # Often needed for Next.js dev
+
+[vars]
+NEXT_PUBLIC_BACKEND_URL = "https://little-worm-aharpro-a3536aef.koyeb.app"
+
+[env.dev.vars]
+NEXT_PUBLIC_BACKEND_URL = "https://little-worm-aharpro-a3536aef.koyeb.app"
+
+# ... other bindings ...
