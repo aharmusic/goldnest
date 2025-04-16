@@ -1,3 +1,4 @@
+export const runtime = 'edge'; // Added for Cloudflare Pages
 'use client';
 
 import React, { useState } from 'react';
